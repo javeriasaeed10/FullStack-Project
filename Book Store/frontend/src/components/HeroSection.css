@@ -1,0 +1,44 @@
+.hero-section {
+    background-image: url('../Asseets/images/top-view-hardback-books-with-copy-space_23-2148827214.jpg');
+    background-size:cover;
+    background-position:bottom;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    color: rgb(246, 242, 242);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-shop-now {
+    background-color: #ffc107;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
